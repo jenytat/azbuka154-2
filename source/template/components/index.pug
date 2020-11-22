@@ -1,0 +1,62 @@
+.body-wrap
+    header.header
+        .wrapper
+            .header__top
+                .header__phone
+                    a(href="tel:+74957923072")
+                        span (495)
+                        span 792-30-72
+                    p с 9:00 до 22:00
+                .header__icons
+                    a(href="#")
+                        img(src="./images/icon/vk.png", alt="vk")
+                    a(href="#")
+                        img(src="./images/icon/instagram.png", alt="instagram")
+                    a(href="#")
+                        img(src="./images/icon/facebook.png", alt="facebook")
+                    a(href="#")
+                        img(src="./images/icon/youtube.png", alt="youtube")
+                .header__city
+                    p ВАШ ГОРОД
+                    .select
+                        select(name="city").js-chosen
+                            option(value="1") Москва
+                            option(value="2") Новосибирск
+                        .chosen-container.chosen-container-single
+                            a.chosen-single.chosen-default
+                                span Выберите город
+                                div 
+                                    b
+                            .chosen-drop
+                                ul.chosen-results
+                                    li.active-result(data-option-array-index="1") Москва
+                                    li.active-result(data-option-array-index="2") Новосибирск
+            nav.menu
+                ul
+                    li
+                        a(href="#") АФИША
+                    li
+                        a(href="#") РАСПИСАНИЕ, СХЕМЫ ЗАЛОВ
+                    li
+                        a(href="#") ОТЗЫВЫ
+                    li
+                        a(href="#") КАК НАС НАЙТИ
+                    li
+                        a(href="#") ФОТОГРАФИИ ЗРИТЕЛЕЙ
+                    li
+                        a(href="#") КОРПОРАТИВНЫЕ МЕРОПРИЯТИЯ
+                    li
+                        a(href="#") МЕДИА
+                    li
+                        a(href="#") СОТРУДНИЧЕСТВО И КАСТИНГИ
+                    li
+                        a(href="#") АРЕНДА ЗАЛА
+                    li
+                        a(href="#") БОЛЬШОЙ ЦИРКОВОЙ КАРНАВАЛ
+            .header__bottom
+                a(href="./").logo
+                    img(src="./images/icon/logo.png", alt="logo")
+                    span ЦИРК ТАНЦУЮЩИХ ФОНТАНОВ
+                a(href="#").tickets
+                    img(src="./images/icon/icon-logo.png", alt="icon-logo")
+                    span КУПИТЬ БИЛЕТЫ            

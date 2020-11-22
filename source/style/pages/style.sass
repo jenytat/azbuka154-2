@@ -1,0 +1,38 @@
+//fonts
+$flexy-bold: "Flexy Bold", sans-serif
+$flexy: "Flexy Sans", sans-serif
+$franklin: "franklin gothic", sans-serif
+$arial-bold: "Arial Bold", sans-serif
+// colors
+$header-color: rgb(209, 212, 211)
+body
+    font-family: sans-serif
+.body-wrap
+    background: url(../images/decor/background.jpg) 50% 50% no-repeat
+    background-size: cover
+.wrapper
+    max-width: 1024px
+    width: 100%
+    margin: 0 auto
+.header
+    background: rgba($color-black, 0.7)
+.header__phone
+    display: flex
+    align-items: center
+    & a
+        text-decoration: none
+        & span:first-child
+            font-size: 5px;
+            font-family: $flexy
+            font-weight: bold
+            color: $header-color
+            line-height: 1.2
+        & span:last-child
+            font-size: 6px
+            font-family: $flexy
+            color: $header-color
+            font-weight: bold
+            line-height: 1.2
+
+
+
